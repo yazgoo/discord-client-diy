@@ -14,3 +14,5 @@ murmur-stop:
 murmur-bridge-stop:
 	- docker kill murmur-bridge
 	- docker rm murmur-bridge
+list-voice:
+	ruby list-voice.rb
