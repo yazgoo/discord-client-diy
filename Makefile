@@ -13,3 +13,4 @@ murmur-stop:
 	- pkill -f murmur.x86
 murmur-bridge-stop:
 	- docker kill murmur-bridge
+	- docker rm murmur-bridge
